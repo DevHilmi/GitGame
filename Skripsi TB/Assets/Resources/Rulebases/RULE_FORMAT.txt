@@ -1,0 +1,62 @@
+Condition Parameter:
+1.  enemy_num => Value: MORE,LESS,SAME Opt: =
+2.  selfMana => Value: _integer Opt: =,<,>
+3.  selfHP => Value: _integer Opt: =,<,>
+4.  selfPoisoned => Value: true,false Opt: =
+5.  selfBlinded => Value: true,false Opt: =
+6.  selfAtkBuffed => Value: true,false Opt: =
+7.  selfDefBuffed => Value: true,false Opt: =
+8.  allyMinHP => Value: _integer Opt: =,<,>
+9.  allyPoisoned Value: true,false Opt: =
+10. allyBlinded Value: true,false Opt: =
+11. allyAtkBuffed Value: true,false Opt: =
+12. allyDefBuffed Value: true,false Opt: =
+
+Action Type:
+1.  DEFAULT/Attack
+2.  LOW_DMG
+3.  MED_DMG
+4.  HIGH_DMG
+5.  HEAL
+6.  CLEAR
+7.  POISON
+8.  BLIND
+9.  BUFF_ATK
+10. BUFF_DEF
+
+Action by Skillname:
+Warrior
+1.  Cascade Strike
+2.  Demon's Blow
+3.  Rains O'Blade
+4.  Demon's Zeal
+
+Wizard
+1.  Flare
+2.  Phoenix Storm
+3.  Eclipse
+4.  Temptation
+
+Healer
+1.  Lightning Arc
+2.  Poseidon
+3.  Revitalize
+4.  Purifier Fountain
+
+Target Type:
+1.  SELF
+2.  RANDOM_E RANDOM_A
+3.  MIN_HEALTH_E MIN_HEALTH_A
+4.  MIN_DEF_E MIN_DEF_A
+5.  MAX_DEF_E MAX_DEF_A
+6.  MIN_ATK_E MIN_ATK_A
+7.  MAX_ATK_E MAX_ATK_A
+8.  BLINDED_E BLINDED_A
+9.  POISONED_E POISONED_A
+10. ATK_BUFFED_E ATK_BUFFED_A
+11. DEF_BUFFED_E DEF_BUFFED_A
+
+Usage: 
+a) Multi condition:selfHP>50 & selfPoisoned=true-Purifier Fountain,SELF (contoh rule healer)
+b) Single condition:selfHP>50 -Lightning Arc,MIN_DEF_E (contoh rule healer)
+c) Only action:-Poseidon,MIN_HEALTH_E (contoh rule healer)

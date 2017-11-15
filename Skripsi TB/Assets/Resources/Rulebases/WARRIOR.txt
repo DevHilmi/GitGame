@@ -1,0 +1,9 @@
+selfHP<40 & selfHP>20-Demon's Zeal,SELF,1
+enemy_num=MORE & selfHP<40-Demon's Zeal,SELF,1
+selfBlinded=true -Attack,RANDOM_E,1
+selfMana>70 -HIGH_DMG,RANDOM_E,1
+selfHP<70 & selfMana<60-Cascade Strike,RANDOM_E,1
+selfHP<70 & selfMana>60-Demon's Blow,RANDOM_E,1
+selfMana<80 -Demon's Blow,RANDOM_E,1
+selfMana<30 -LOW_DMG,RANDOM_E,1 
+-Attack,RANDOM_E,1

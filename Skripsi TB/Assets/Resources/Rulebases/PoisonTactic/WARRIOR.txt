@@ -1,0 +1,3 @@
+selfHP>60 & selfMana>60 -Demon's Blow,MIN_HEALTH_E,1
+selfHP<50 & selfMana>30-Rains O'Blade,MIN_HEALTH_E,1 
+-Attack,MIN_HEALTH_E,1

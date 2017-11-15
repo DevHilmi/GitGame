@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\AI\MCTS_Script.cs">
+    <Files>
+      <File FileName="Assets\Script\Chara\CharaController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Chara\Character.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Battle\Team.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Battle\MCTSTeam.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\AI\Rulebase\Static_AI_Script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\AI\Rulebase\TargetParser.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Rulebases\RULE_FORMAT.txt" Line="1" Column="1" />
+      <File FileName="Assets\Script\Battle\Battle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\AI\MCTS_Script.cs" Line="72" Column="44" />
+      <File FileName="Assets\Resources\Rulebases\HEALER.txt" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Rulebases\WIZARD.txt" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Rulebases\WARRIOR.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

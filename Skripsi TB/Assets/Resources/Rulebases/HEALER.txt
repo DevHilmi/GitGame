@@ -1,0 +1,7 @@
+allyMinHP<20 -Revitalize,MIN_HEALTH_A,1
+allyPoisoned=true -Purifier Fountain,POISONED_A,1
+selfHP<30 -Revitalize,SELF,1
+selfPoisoned=true -Purifier Fountain,SELF,1
+selfHP<70 & selfMana>70-Poseidon,RANDOM_E,1
+selfHP<70 & selfMana<70-Lightning Arc,RANDOM_E,1
+-Attack,RANDOM_E,1

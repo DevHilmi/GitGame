@@ -1,0 +1,5 @@
+selfHP<60 -Revitalize,SELF,1
+allyMinHP<60 -Revitalize,MIN_HEALTH_A,1
+allyPoisoned=true -Purifier Fountain,POISONED_A,1
+selfHP<80 & selfHP>60 & selfMana>60-Lightning Arc,MIN_HEALTH_E,1
+-Attack,MIN_HEALTH_E,1

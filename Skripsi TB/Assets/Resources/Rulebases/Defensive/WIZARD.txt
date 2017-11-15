@@ -1,0 +1,6 @@
+allyMinHP<40 -Eclipse,RANDOM_E,1
+selfHP<50 & selfMana>30-Eclipse,MAX_ATK_E,1
+selfMana>90 -Eclipse,MAX_ATK_E,1
+selfHP<90 & selfHP>70-Phoenix Storm,MIN_HEALTH_E,1
+selfMana<25 & selfMana>19-Flare,MIN_HEALTH_E,1
+-Attack,MIN_HEALTH_E,1

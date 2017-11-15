@@ -1,0 +1,7 @@
+selfHP<50 & selfHP>30-Demon's Zeal,SELF,1
+selfHP<30 & selfMana>30-Demon's Zeal,MAX_HEALTH_A,1
+selfBlinded=true -Attack,MIN_DEF_E,1
+selfHP>50 & selfMana<50 & selfMana>40 -Rains O'Blade,MIN_HEALTH_E,1
+selfHP<50 & selfMana>60-Rains O'Blade,MIN_HEALTH_E,1
+selfHP<70 & selfMana>60-Demon's Blow,MIN_HEALTH_E,1 
+-Attack,MIN_HEALTH_E,1

@@ -1,0 +1,4 @@
+selfHP<50 -Revitalize,SELF,1
+allyMinHP<50 -Revitalize,MIN_HEALTH_A,1
+selfMana>70 -Poseidon,MIN_DEF_E,1
+-Attack,MIN_HEALTH_E,1
